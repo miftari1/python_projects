@@ -48,7 +48,11 @@ def file_organizer(directory):
 
                 shutil.move(file_path, os.path.join(destination_folder_path, file_name))
 
-
-if __name__ == '__main__':
+def main():
     file_organizer(DIRECTORY_TO_ORGANIZE)
     print('Directory is successfully organized!')
+
+
+if __name__ == '__main__':
+    main()
+    
